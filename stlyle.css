@@ -1,0 +1,47 @@
+header > img {
+  width: 60px;
+  height: 60px;
+  margin-left: 70px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  position: sticky;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  height: 80px;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.links {
+  display: none;
+}
+nav {
+  width: 30%;
+  margin-right: 90px;
+}
+ul a {
+  text-decoration: none;
+  color: rgb(31, 30, 30);
+}
+.class-links li :hover {
+  color: rgb(21, 83, 141);
+  text-decoration: underline;
+}
+.contact-links:hover .links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100px;
+  padding-top: 10px;
+}
+.premiere-partie {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.premiere-partie div {width: 90px;}
